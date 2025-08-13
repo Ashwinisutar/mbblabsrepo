@@ -21,6 +21,7 @@ public class MBBLabService implements MBBLabServiceInterface{
 	@Override
 	public List<Employee> findAllEmployee() {
 		// TODO Auto-generated method stub
+		System.out.println("Log inside serive");
 		return mDao.findAll();
 	}
 
