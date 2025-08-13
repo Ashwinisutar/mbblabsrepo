@@ -22,7 +22,7 @@ public class MBBLabController {
 		
 		
 		List<Employee> list =mService.findAllEmployee();
-			
+		System.out.println("Log inside controller");
 			
 		return list;
 		
