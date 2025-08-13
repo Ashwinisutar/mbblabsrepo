@@ -19,7 +19,7 @@ public class MBBLabController {
 	@GetMapping("displayAllEmployee")
 	public List<Employee> getAll(){
 		
-		
+		System.out.println("Start Log inside controller");
 		
 		List<Employee> list =mService.findAllEmployee();
 		System.out.println("Log inside controller");
